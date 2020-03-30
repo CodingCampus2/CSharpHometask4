@@ -36,3 +36,6 @@ Create 2d char array that shows next state (after one update) of the board given
 3. Record the gif or take a screenshot of what is happening.  
 Tips: 
 Use `Console.SetCursorPosition(0, 0);` and `Console.CursorVisible = false;` to redraw the image in console.
+
+## Credits:
+Original idea of the task was taken from CodinGames - [link](https://www.codingame.com/ide/puzzle/game-of-life)
