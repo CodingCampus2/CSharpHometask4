@@ -30,9 +30,9 @@ Create 2d char array that shows next state (after one update) of the board given
 ## Task clarifications:
 ---
 
-## Bonus task:
-1. Replace the live and dead state of the cell with the chars of your choice
-2. Take the starting data state from the task and launch an infinite cycle of Game of Life
-3. Record the gif or take a screenshot of what is happening
+## Bonus task:  
+1. Replace the live and dead state of the cell with the chars of your choice.  
+2. Take the starting data state from the task and launch an infinite cycle of Game of Life.  
+3. Record the gif or take a screenshot of what is happening.  
 Tips: 
 Use `Console.SetCursorPosition(0, 0)`; and `Console.CursorVisible = false;` to redraw the image in console.
