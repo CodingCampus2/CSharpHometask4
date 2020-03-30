@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using CodingCampusCSharpHomework;
 
 namespace HomeworkTemplate
@@ -7,16 +7,14 @@ namespace HomeworkTemplate
     {
         static void Main(string[] args)
         {
-            Func<Task1, string> TaskSolver = task =>
+            Func<Task4, char[,]> TaskSolver = task =>
             {
                 // Your solution goes here
                 // You can get all needed inputs from task.[Property]
                 // Good luck!
-
-                return "My answer";
             };
 
-            Task1.CheckSolver(TaskSolver);
+            Task4.CheckSolver(TaskSolver);
         }
     }
 }
