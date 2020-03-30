@@ -1,7 +1,7 @@
 # Task 4
 
 ## Prerequisites:
-Read .NET Book Zero until Chapter 10
+Read .NET Book Zero until Chapter 10.
 
 ## Description:
 You are given a board [task.Board] in which each cell has an initial state: live '1' or dead '0'. Each cell interacts with its eight neighbors (horizontally, vertically and diagonally) using the following four rules:
@@ -18,14 +18,14 @@ Create 2d char array that shows next state (after one update) of the board given
 
 ## Example input: 
 [task.Board] = 
-000
-111
-000
+000  
+111  
+000  
 
 ## Example output:
-010
-010
-010
+010  
+010  
+010  
 
 ## Task clarifications:
 ---
@@ -35,4 +35,4 @@ Create 2d char array that shows next state (after one update) of the board given
 2. Take the starting data state from the task and launch an infinite cycle of Game of Life
 3. Record the gif or take a screenshot of what is happening
 Tips: 
-Use Console.SetCursorPosition(0, 0); and Console.CursorVisible = false; to redraw the image in console.
+Use `Console.SetCursorPosition(0, 0)`; and `Console.CursorVisible = false;` to redraw the image in console.
