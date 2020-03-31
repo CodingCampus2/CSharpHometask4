@@ -21,6 +21,8 @@ jobs:
       run: dotnet restore
     - name: Build
       run: dotnet build --configuration Release --no-restore
+      env:  
+          DOTNET_CLI_HOME: /tmp
     - uses: education/autograding@v1
       env:  
           DOTNET_CLI_HOME: /tmp
