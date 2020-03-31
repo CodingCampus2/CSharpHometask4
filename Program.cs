@@ -3,13 +3,11 @@ using CodingCampusCSharpHomework;
 
 namespace HomeworkTemplate
 {
-    public class Program
+    class Program
     {
-        public static Func<Task4, char[,]> TaskSolver;
-
         static void Main(string[] args)
         {
-            TaskSolver = task =>
+            Func<Task4, char[,]>TaskSolver = task =>
             {
                 // Your solution goes here
                 // You can get all needed inputs from task.[Property]
